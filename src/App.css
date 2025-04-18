@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  height: 200px;
+  width: 300px;
+  border: 1px solid lightblue;
+  background-color: black;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.display {
+  background-color: lightblue;
+  height: 88px;
+  border-radius: 4px;
+  text-align: center;
+  vertical-align: center;
+  margin: 0px;
+  color: black;
+  font-weight: bold;
+  font-size: 43px;
+  padding-top: 5%;
+}
+
+.buttons {
+  margin-top: 8px;
+  border: 1px solid lightblue;
+  border-radius: 4px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buttons button {
+  height: 72px;
+  width: 45%;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.display.end {
+  color: red;
+}
