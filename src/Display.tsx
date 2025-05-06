@@ -1,9 +1,8 @@
-import { END } from "./App";
-
 type DisplayProps = {
     count: number;
+    end: number;
 }
 
-export const Display = ({ count }: DisplayProps) => {
-    return <p className={`display ${count === END && 'end'}`}>{count}</p>
+export const Display = ({ count, end }: DisplayProps) => {
+    return <p className={`display ${count === end && 'end'}`}>{count}</p>
 }
